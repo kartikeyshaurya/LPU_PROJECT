@@ -1,0 +1,121 @@
+body{
+    background-color: #264d73;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+header {
+    color:#FFFFFF;
+    font-size:40px;
+}
+#company{
+    float:left;
+
+}
+#highradius{
+    margin-left: 25%;
+}
+
+/* header unction */
+
+.invoice{
+    text-align: left;
+    font-size:25px;
+    color:#FFFFFF;
+    background-color: #2c4b76;
+}
+.space{
+    background-color: #153648cc;
+    height:600px;
+    border-radius:4px;
+    
+}
+
+
+.buttonleftpart{
+    padding-top: 20px;
+    height: 30px;
+    text-align: right;
+    padding-right:10px ;
+    padding-bottom: 20px; 
+}
+
+
+.search{
+    float: right;
+    background: #ededed;
+    height: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid #03537e 1px;
+    
+}
+
+.search_text{
+    background: none;
+    border: none;
+    color: #97A1A9;
+    outline: none;
+    float: left;
+    line-height: 15px;
+    width: 210px;
+    
+}
+
+
+.delete{
+    float: right;
+    padding-right: 5px;
+    
+}
+.delete_text{
+    margin-right: 10px;
+    background: none;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-size: 15px;
+    border: 1px solid #008cff;
+    height: 35px;
+}
+.delete_btn{
+    color: #ffffff;
+}
+
+/* Edit */ 
+
+.edit{
+    float: right;
+    padding-right: 5px;
+    
+}
+.edit_text{
+    margin-right: 10px;
+    background: none;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-size: 15px;
+    border: 1px solid #008cff;
+    height: 35px;
+}
+.edit_btn{
+    color: #ffffff;
+}
+
+/* Addd */ 
+
+.add{
+    float: right;
+    padding-right: 5px;
+    
+}
+.add_text{
+    margin-right: 10px;
+    background: none;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-size: 15px;
+    border: 1px solid #008cff;
+    height: 35px;
+}
+.add_btn{
+    color: #ffffff;
+}
