@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>highradius</title>
+    <style>
+        .modal-delete--hidden{
+            display:none;
+        }
+        .modal-edit--hidden{
+            display:none;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <img id="company" src="assets\images\abc_sh.png" alt="ABC Products">
+        <span id="highradius"><img src="assets\images\hrc_sh.png" alt="Highradius"></span>
+    </header>
+
+    <div class="invoice">
+        <p>Invoice List</p>
+    </div>
+
+    <div class="space">
+        <!Button Group Start-->
+
+        <div class="buttonleftpart">
+            
+            
+            <div class="delete">
+                <button id="del-btn-id" class="delete_text" onclick="checkboxDelete()">
+                    <a class="delete_btn" href="#">
+                        DELETE
+                    </a> 
+                </button>
+            </div>
+            
+            
+            <div class="edit">
+                <button id="edit-btn-id" class="edit_text" onclick="checkEdit()">
+                    <a class="edit_btn" href="#">
+                        Edit
+                    </a>
+                </button>
+            </div>
+
+
+            <div class="add">
+                <button id="click" class="add_text">
+                    <a class="add_btn" href="#">
+                        Add
+                    </a>
+                </button>
+            </div>
+
+            <div class="search">
+                <input class="search_text" type="text" name="" placeholder="Search Customer ID ">
+            </div>
+        </div>
+</body>
+
+
+</html>
