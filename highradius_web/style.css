@@ -17,7 +17,7 @@ header {
 
 /* header unction */
 
-.invoice{
+.invoice_text{
     text-align: left;
     font-size:25px;
     color:#FFFFFF;
@@ -30,34 +30,35 @@ header {
     
 }
 
-
-.buttonleftpart{
+.buttonrightpart{
     padding-top: 20px;
     height: 30px;
     text-align: right;
     padding-right:10px ;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;  
 }
 
 
 .search{
     float: right;
     background: #ededed;
-    height: 15px;
+    height: 25px;
     border-radius: 10px;
     padding: 10px;
     border: solid #03537e 1px;
+
     
 }
 
 .search_text{
     background: none;
     border: none;
-    color: #97A1A9;
+    color: #6a6969;
     outline: none;
     float: left;
     line-height: 15px;
     width: 210px;
+    
     
 }
 
@@ -70,11 +71,12 @@ header {
 .delete_text{
     margin-right: 10px;
     background: none;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 0px 10px;
     font-size: 15px;
     border: 1px solid #008cff;
     height: 35px;
+    width: 180px;
 }
 .delete_btn{
     color: #ffffff;
@@ -95,6 +97,7 @@ header {
     font-size: 15px;
     border: 1px solid #008cff;
     height: 35px;
+    width: 180px;
 }
 .edit_btn{
     color: #ffffff;
@@ -105,17 +108,70 @@ header {
 .add{
     float: right;
     padding-right: 5px;
-    
+    padding-left: 15px;
 }
 .add_text{
     margin-right: 10px;
     background: none;
     border-radius: 10px;
-    padding: 0px 10px;
+    padding: 10px 10px;
     font-size: 15px;
     border: 1px solid #008cff;
     height: 35px;
+    width: 180px;
 }
 .add_btn{
     color: #ffffff;
 }
+
+
+
+.predict{
+    float: left;
+}
+.predict_text{
+    margin-left: 20px;
+    background: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-size: 15px;
+    border: 1px solid #008cff;
+    height: 35px;
+    width: 180px;
+}
+.predict_btn{
+    color: #ffffff;
+}
+
+.analytics{
+    float: left;
+}
+.analytics_text{
+    background: none;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid #008cff;
+    height: 35px;
+    width: 180px;
+}
+.analytics_btn{
+    color: #ffffff;
+}
+
+.advance_search{
+    float: left;
+}
+.advance_search_text{
+    
+    background: none;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid #008cff;
+    height: 35px;
+    width: 180px;
+}
+.advance_search_btn{
+    color: #ffffff;
+}
+
+
