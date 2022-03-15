@@ -77,6 +77,7 @@ header {
     border: 1px solid #008cff;
     height: 35px;
     width: 180px;
+    
 }
 .delete_btn{
     color: #ffffff;
@@ -174,4 +175,18 @@ header {
     color: #ffffff;
 }
 
+                    /*  For the Table  */
 
+
+
+
+/* fOOTER */ 
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #264d73;
+    color: #fff;
+}
