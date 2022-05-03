@@ -183,7 +183,7 @@ header {
 /* fOOTER */ 
 
 
-footer {
+.footer {
     display: flex;
     justify-content: center;
     padding: 5px;
